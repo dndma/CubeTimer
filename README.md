@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+CubeTimer helps cubers control their results in 3x3 solves
 
-Things you may want to cover:
+Generated scrambles conforms to WCA(https://www.worldcubeassociation.org) standards
 
-* Ruby version
+Sign up to save your personal solves or use app as stranger
 
-* System dependencies
+Scramble cube according to app's scramble (and it's visualistion)
 
-* Configuration
+Press 'space' to start your solve, after complition input you result in input field, solve'll save in Data base
 
-* Database creation
+You can see all your solves by clicking 'Show solves'
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+CubeTimer calculates average of 5, 12 ,50 solves and shows best and worst result.
