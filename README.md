@@ -4,7 +4,7 @@ CubeTimer helps cubers control their results in 3x3 solves
 
 Generated scrambles conforms to WCA(https://www.worldcubeassociation.org) standards
 
-Sign up to save your personal solves or use app as stranger
+Sign up to save your personal solves or use app as 'stranger'
 
 Scramble cube according to app's scramble (and it's visualistion)
 
