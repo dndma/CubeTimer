@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  solves: MyString
+  count: 1
+
+two:
+  solves: MyString
+  count: 1

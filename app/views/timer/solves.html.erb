@@ -1,0 +1,15 @@
+<%= stylesheet_link_tag "cube_timer" %>
+
+<div style="width:1650px; height:300px;
+position:absolute; left:29%; margin-left:-25%;margin-top: 1%">
+  <h2 id="num">3x3 solves:</h2>
+  <% MySolve.where(scramble: "#{current_user.nil? ? 'Stranger' : current_user.email.to_s}").each do |ms| %>
+    <span class = ao> <span id="num">Solve<%=  %>:</span>
+      <%= ms.time  %> </span>
+  <% end %>
+  <%= form_tag("/timer/destroy", :method => 'get' ) do %>
+    <%= submit_tag("Delete last", data: { confirm: "Delete last?"}) %>
+  <% end %>
+  <br>
+</div>
+

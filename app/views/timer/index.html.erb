@@ -1,0 +1,44 @@
+<%= stylesheet_link_tag "cube_timer" %>
+<%= javascript_pack_tag 'timer' %>
+<div style="width:300px; height:100px;
+  position:absolute; left:65%; margin-left:-25%; margin-top: 40%";>
+  <p id="ao5", class="ao">Ao5:<%= @ao5 %></p>
+  <p id="ao12", class="ao">Ao12:<%= @ao12 %></p>
+  <p id="ao50", class="ao">Ao50:<%= @ao50 %></p>
+</div>
+
+<div style="width:300px; height:100px;
+  position:absolute; left:78%; margin-left:-25%; margin-top: 40%", id="bwc" ;>
+  <p id="best", class="ao">Best:<%= @best %></p>
+  <p id="worst", class="ao">Worst: <%= @worst %></p>
+  <p id="count", class="ao">Count:<%= @count %></p>
+</div>
+
+<div style="width:2000px; height:200px;
+  position:absolute;left:45%; margin-left:-25%; margin-top: 0%"; >
+  <div>
+    <p class = 'scramble', id='scramble';>L F2 U2 F2 R B2 R2 D2 F2 D2 L' B' D' F' D2 R D' L2 F2 </p>
+  </div>
+</div>
+<div id="visualisation"; style="width:400px; height:200px;
+  position:absolute;left:65%; margin-left:-25%; margin-top: 7%"; >
+</div>
+<div style="width:300px; height:300px;
+  position:absolute; left:67%; margin-left:-25%; margin-top: 22%";>
+  <p class = 'time', id='ptime';> 0.00 </p>
+</div>
+
+<div style="width:300px; height:300px;
+  position:absolute; left:69%; margin-left:-25%; margin-top: 35%";>
+  <%= form_tag("/timer/index", :method => 'get') do %>
+    <%= text_field_tag(:v1, nil, placeholder: 'Time of your solve') %>
+    <%= submit_tag("Add") %>
+  <% end %>
+  <div style="width:300px; height:300px;
+  position:absolute; left:42%; margin-left:-25%; margin-top: 0%";>
+    <%= link_to "Show solves",'/timer/solves',style: 'color:#FFFFFF;' %>
+  </div>
+</div>
+
+
+
