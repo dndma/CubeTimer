@@ -12,4 +12,4 @@ Press 'space' to start your solve, after complition input you result in input fi
 
 You can see all your solves by clicking 'Show solves'
 
-CubeTimer calculates average of 5, 12 ,50 solves and shows best and worst result.
+CubeTimer calculates average of 5, 12 ,50 solves and shows best and worst result
