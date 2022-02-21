@@ -2,7 +2,7 @@
 
 CubeTimer helps cubers control their results in 3x3 solves
 
-Generated scrambles conforms to WCA(https://www.worldcubeassociation.org) standards
+Generated scrambles conform to WCA(https://www.worldcubeassociation.org) standards
 
 Sign up to save your personal solves or use app as 'stranger'
 
